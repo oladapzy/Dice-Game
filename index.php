@@ -21,11 +21,8 @@ if(isset($_POST['submit'])){
 	if($rand1.":".$rand2 == $high1.":".$high2 or $rand1.":".$rand2 == $high2.":".$high1 ){
 	  
 	  $result1 ="You can do better than that!!!";
-	}
-	
-	
-	
-	
+}
+
 	$rand1 = rand(0,6);
 	$rand2 = rand(0,6);
 	$high1 = 6;
@@ -60,11 +57,10 @@ if(isset($_POST['submit'])){
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
     <style>
-	
-	    body{
+          body{
 			
-			background-color : #F7F7F7;
-			height : 100%
+                background-color : #F7F7F7;
+	        height : 100%
 			
 		}
 	    .container{
@@ -72,7 +68,8 @@ if(isset($_POST['submit'])){
 			border : 1px solid black;
 			border-radius : 5px;
 		}
-		.align{
+	    
+	   .align{
 			width : 100px;
 			height :60px;
 			padding-left : 30px;
@@ -81,7 +78,7 @@ if(isset($_POST['submit'])){
 		
 		}
 		
-		.center{
+	  .center{
 			
 			text-align : center;
 		}
@@ -187,7 +184,6 @@ if(isset($_POST['submit'])){
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
-
 
 
 
